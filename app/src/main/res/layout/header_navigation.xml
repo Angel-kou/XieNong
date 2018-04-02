@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/rl_information"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.xidian.xienong.util.CircleImageView
+        android:id="@+id/id_header_face"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/author" />
+
+    <TextView
+        android:id="@+id/id_header_authorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小明"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/id_header_tele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18729228245"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
